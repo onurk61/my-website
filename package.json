@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o css/ --recursive"
+    "sass": "node-sass -w scss/ -o css/ --recursive",
+    "start" : "nodemon deneme.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +14,7 @@
     "node-sass": "^6.0.1"
   },
   "devDependencies": {
+    "nodemon": "^2.0.15",
     "typescript": "^4.5.2"
   }
 }
